@@ -7,7 +7,7 @@ public class yeet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fuck dig
+        fuck dig BO
     }
 
     // Update is called once per frame

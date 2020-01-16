@@ -8,6 +8,7 @@ public class yeet : MonoBehaviour
     void Start()
     {
         fuck dig
+            but  love you 
     }
 
     // Update is called once per frame

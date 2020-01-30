@@ -5822,7 +5822,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.12890625, y: 0.0390625, z: 0.03515625, w: -0.0390625}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4e-45}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -17470,7 +17470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1162281618}
   rotationSpeed: 20
-  walkingSpeed: 4
+  walkingSpeed: 2
   reachedKnot: 1
 --- !u!143 &2122461563
 CharacterController:
@@ -17511,8 +17511,8 @@ MonoBehaviour:
   searchRadius: 300
   knotDistance: 2
   distToGround: 0.5
-  canDiagonal: 1
-  smoothPath: 1
+  canDiagonal: 0
+  smoothPath: 0
   obstacleTag: Wall
   reachedTarget: 0.1
   minDistToWalls: 0.1

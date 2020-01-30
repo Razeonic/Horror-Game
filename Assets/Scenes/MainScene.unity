@@ -9544,7 +9544,7 @@ GameObject:
   - component: {fileID: 1195816011}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17508,7 +17508,7 @@ MonoBehaviour:
   limitationBy: 1
   maxValue: 70
   knotsPerFrame: 30
-  searchRadius: 100
+  searchRadius: 300
   knotDistance: 2
   distToGround: 0.5
   canDiagonal: 1

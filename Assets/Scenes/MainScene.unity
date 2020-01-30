@@ -17506,7 +17506,7 @@ MonoBehaviour:
   start: {x: 0, y: 0, z: 0}
   identification: 
   limitationBy: 1
-  maxValue: 70
+  maxValue: 10000
   knotsPerFrame: 30
   searchRadius: 300
   knotDistance: 2
@@ -17514,8 +17514,8 @@ MonoBehaviour:
   canDiagonal: 1
   smoothPath: 1
   obstacleTag: Wall
-  reachedTarget: 3
-  minDistToWalls: 1
+  reachedTarget: 0.1
+  minDistToWalls: 0.1
   isCalculating: 0
   onGroundOnly: 1
   options:
@@ -17601,7 +17601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122461561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.41, y: 1.04, z: -0.4454838}
+  m_LocalPosition: {x: 72.41, y: 1.04, z: -0.4454838}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

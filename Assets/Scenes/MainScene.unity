@@ -5823,7 +5823,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.03515625, y: 0.10546875, z: 0.02734375, w: -0.03125}
+  m_BoundingSphereOverride: {x: 8.98e-43, y: 2.565824e-39, z: 0, w: 5.030289e+37}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -9934,7 +9934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 10869704, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: m_SpotAngle
-      value: 50
+      value: 99.826675
       objectReference: {fileID: 0}
     - target: {fileID: 19837060, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
@@ -15504,7 +15504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1877520962
 Transform:
   m_ObjectHideFlags: 0
